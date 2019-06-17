@@ -1,0 +1,24 @@
+1. interfaces
+- default methods
+- static methods
+
+2. abstract class vs interface
+
+abstract class:
+- can have non-public members (protected, package default, private)
+- has constructor
+- can extend other classes
+
+interface
+- ALL public members
+- can have ONLY final fields (constants)
+- can extend multiple interfaces
+
+final fields:
+- can be assigned ONLY ONCE!!!
+- MUST BE assigned (in constructors, directly -> final String s = "abc")
+
+
+3. multiple inheritance (by interfaces)
+- diamond problem
+- without and with default/static methods
